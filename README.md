@@ -122,3 +122,6 @@ we have to pass the media-muxer which is currently being used for video muxing.
 MediaMuxer's starting, stopping, releasing must be handled externally.
 In this case, we must call ````AudioMixer.start()```` before ````MediaMuxer.start()```` and
 ````AudioMixer.processAsync()```` after ````MediaMuxer.start()````.
+
+## Custom AudioInput
+You can implement AudioInput interface and make you own audio processing system
