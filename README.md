@@ -124,4 +124,4 @@ In this case, we must call ````AudioMixer.start()```` before ````MediaMuxer.star
 ````AudioMixer.processAsync()```` after ````MediaMuxer.start()````.
 
 ## Custom AudioInput
-You can implement AudioInput interface and make you own audio processing system
+You can implement AudioInput interface and make your own audio processing system
